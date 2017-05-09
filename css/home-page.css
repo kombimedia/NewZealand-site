@@ -1,0 +1,221 @@
+/* Links
+---------------------------------------------------------*/
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+/*.btn,
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none;
+  background-color: #fff;
+  border-radius: 0;
+  border: 0;
+}
+
+.btn-default:hover{
+  background-color: rgba(255,255,255,.75);
+}
+
+.home-cover-btn{
+  margin-top: 10px;
+}
+
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}*/
+
+ /* Base structure
+---------------------------------------------------------*/
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  background-image: url(../images/cover-image.jpg);
+  background-size: cover;
+  font-family: 'Amiri';font-size: 1em;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+/* Header
+---------------------------------------------------------*/
+/*.masthead-brand {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.masthead-brand h3{
+  font-family: 'Berkshire Swash';font-size: 2.5em;
+  margin-top: 0;
+}*/
+
+.inner a:hover{
+  text-decoration: none;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 6px;
+}
+.masthead-nav> li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 15px;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+
+.masthead-nav > li > a.glyphicon-home{
+  padding-bottom: 15px;
+}
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #1a73d1;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+/*.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}*/
+
+/* Home Content
+---------------------------------------------------------*/
+.cover{
+  background-color: rgba(255,255,255,.3);
+  padding: 20px 10px 10px 10px;
+}
+
+h1.cover-heading{
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: 'Berkshire Swash';
+  font-size: 3em;
+}
+
+.cover p{
+  font-size: 1.1em;
+}
+
+.cover p.lead{
+  font-size: 1.3em;
+}
+
+/* Media Queries
+---------------------------------------------------------*/
+@media (min-width: 768px) {
+  /* Header
+---------------------------------------------------------*/
+/*.masthead-brand {
+    float: left;
+  }*/
+
+  /*.masthead-nav {
+    float: right;
+  }*/
+
+.masthead-nav > li + li {
+  margin-left: 15px;
+}
+
+.masthead-nav> li > a {
+  font-size: 1em;
+}
+
+/* Footer
+---------------------------------------------------------*/
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+}
+
+@media (min-width: 768px) {
+ /* Affix and center
+---------------------------------------------------------*/
+
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+/* Handle the widths */
+.masthead,
+.mastfoot,
+.cover-container {
+  width: 100%; /* Must be percentage or pixels for horizontal alignment */
+}
+
+.cover{
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1.cover-heading{
+  margin-bottom: 50px;
+  font-size: 4.5em;
+}
+}
+
+@media (min-width: 992px) {
+/*.masthead,
+.mastfoot,
+.cover-container {
+    width: 800px;
+}*/
+
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+}
