@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" A tribute to NZs beauty and history="">
-    <meta name="author" Cy Messenger="">
+    <meta name="description" content="A tribute to NZs beauty and history">
+    <meta name="author" content="Cy Messenger">
     <link rel="icon" href="images/favicon.png">
     <title>New Zealand's Major Events</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Berkshire%20Swash' rel='stylesheet'>
     <link href='http://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -22,53 +22,59 @@
     <![endif]-->
   </head>
   <body class="events">
-    <nav class="navbar navbar-fixed-top text-center" id="back-to-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">New Zealand</a>
-          </div>
-          <div id="navbar">
-            <ul class="nav navbar-nav text-uppercase">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">New Zealand</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav text-uppercase text-left">
                 <li><a class="glyphicon glyphicon-home" href="index.html"></a></li>
                 <li><a href="history.html">History</a></li>
                 <li><a href="attractions.html">Attractions</a></li>
                 <li class="active"><a href="events.html">Events</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-    </nav> <!-- nav container -->
+    </nav>
     <div class="container-fluid content-top">
-      <h1>New Zealand's Upcoming Events</h1>
+      <h1 class="text-center page-heading">New Zealand's Upcoming Events</h1>
       <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-          <section class="container-image container-image-events image-events-1">
+          <section class="container-image">
             <img class="img-responsive content-top-image" src="images/ironman-taupo.jpg" alt="ironman taupo">
-            <div class="section-heading events-heading-1"><h3>3rd March 2017</h3></div>
+            <div class="section-heading"><h3>3rd March 2017</h3></div>
             <div class="middle text-center">
               <p class="text">You can’t go past Kellogs Nutri-Grain IRONMAN New Zealand as the elite event of New Zealand endurance sport. 3.8km fresh water swim, 180km cycle and 42.2km run.</p>
-              <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-1" aria-expanded="false" aria-controls="collapseContent-1"> Discover more... </button>
+              <button class="btn btn-default button-image1 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-1" aria-expanded="false" aria-controls="collapse-div1"> Discover more... </button>
             </div>
           </section>
-            <div class="collapse collapse-content collapse-content-events collapseContent-1 collapse-content-container-sm">
+            <div class="collapse collapse-content collapseContent-1 collapse-content-container-sm" id="from-div1">
               <div class="well">
                 <h2>Ironman New Zealand</h2>
-                <p>Firmly established in its hometown of Taupo since 1999, IRONMAN New Zealand showcases the best of New Zealand's outdoors and its breathtaking scenery. Thanks to the 'pure Kiwi spirit', you will feel like a local the minute you arrive. The Taupo event attracts more than 2,000 volunteers from a population of just 22,000—and you'll encounter the rest along the streets cheering you on.</p>
+                <p>Firmly established in its hometown of Taupo since 1999, IRONMAN New Zealand showcases the best of New Zealand's outdoors and its breathtaking scenery. Thanks to the 'pure Kiwi spirit', you will feel like a local the minute you arrive. The Taupo event attracts more than 2,000 volunteers from a population of just 22,000 — and you'll encounter the rest along the streets cheering you on.</p>
                 <p>Triathlon New Zealand has confirmed that the race on Saturday 3 March will be the official New Zealand Ultra Distance Championships, which is open to all New Zealand citizens and/or have permanent resident status. New Zealand also offer 40 qualifying slots for the IRONMAN World Championship in Kailua-Kona, Hawaii.</p>
                 <p>See full race details at <a href="http://ap.ironman.com/triathlon/events/asiapac/ironman/new-zealand.aspx#/axzz4eGzehJQJ" target="_blank">Ironman.com</a>.</p>
               </div>
             </div>
         </div> <!-- column container -->
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-          <section class="container-image container-image-events image-events-2">
+          <section class="container-image">
             <img class="img-responsive content-top-image" src="images/world-masters-games-2017.jpg" alt="world masters games 2017">
-            <div class="section-heading events-heading-2"><h3>April 2017</h3></div>
+            <div class="section-heading"><h3>April 2017</h3></div>
             <div class="middle text-center">
               <p class="text">The World Masters Games is the world’s largest multi-sport event. Held every four years, it is the pinnacle sporting event for masters competitors worldwide.</p>
-              <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-2" aria-expanded="false" aria-controls="collapseContent-2"> Discover more... </button>
+              <button class="btn btn-default button-image1 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-2" aria-expanded="false" aria-controls="collapse-div2"> Discover more... </button>
             </div>
           </section>
-            <div class="collapse collapse-content collapse-content-events collapseContent-2 collapse-content-container-sm">
+            <div class="collapse collapse-content collapseContent-2 collapse-content-container-sm" id="from-div2">
               <div class="well">
                 <h2>World Masters Games</h2>
                 <p>World Masters Games 2017 is hitting Auckland and the Waikato from 21-30 April 2017, with 48 competition venues hosting the action.</p>
@@ -78,18 +84,17 @@
             </div>
         </div> <!-- column container -->
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-          <section class="container-image container-image-events image-events-3">
+          <section class="container-image">
             <img class="img-responsive content-top-image" src="images/nz-lions-2017.jpg" alt="lions tour 2017">
-            <div class="section-heading events-heading-3"><h3>June & July 2017</h3></div>
+            <div class="section-heading"><h3>June & July 2017</h3></div>
             <div class="middle text-center">
               <p class="text">The eagerly anticipated tour by the British and Irish Lions will provide fans with a feast of quality rugby which will be LIVE on SKY Sport.</p>
-              <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-3" aria-expanded="false" aria-controls="collapseContent-3"> Discover more... </button>
+              <button class="btn btn-default button-image1 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-3" aria-expanded="false" aria-controls="collapse-div3"> Discover more... </button>
             </div>
           </section>
-            <div class="collapse collapse-content collapse-content-events collapseContent-3 collapse-content-container-sm">
+            <div class="collapse collapse-content collapseContent-3 collapse-content-container-sm" id="from-div3">
               <div class="well">
                 <h2>New Zealand Lions Tour</h2>
-                <p>The eagerly anticipated tour by the British and Irish Lions will provide fans with a feast of quality rugby which will be LIVE on SKY Sport.</p>
                 <p>The Lions, who last toured New Zealand in 2005 will be chasing their first series win against the All Blacks since their historic triumph in 1971.</p>
                 <p>Rugby fans are in for a treat with the Lions kicking off the tour in Whangarei against the New Zealand Barbarians, followed by games against all the Super Rugby teams, the Maori All Blacks and a three test match series.</p>
                 <br>
@@ -162,21 +167,21 @@
                       <td>7:35pm</td>
                     </tr>
                   </table>
-                </div> <!-- /table wrapper -->
+                </div> <!-- table wrapper -->
                 <p>See <a href="http://www.allblacks.com/Tickets/LionsSeries" target="_blank">New Zealand Lions Tour</a> for full details,  schedule and ticketing.</p>
               </div>
             </div>
         </div> <!-- column container -->
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-          <section class="container-image container-image-events image-events-4">
+          <section class="container-image">
             <img class="img-responsive content-top-image" src="images/fieldays-2017.jpg" alt="fieldays 2017">
-            <div class="section-heading events-heading-4"><h3>14th - 17th June 2017</h3></div>
+            <div class="section-heading"><h3>14th - 17th June 2017</h3></div>
             <div class="middle text-center">
               <p class="text">Fieldays is the Southern Hemisphere's largest agribusiness exhibition - to be held 14 to 17 June 2017 at Mystery Creek Events Centre, Hamilton.</p>
-              <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-4" aria-expanded="false" aria-controls="collapseContent-4"> Discover more... </button>
+              <button class="btn btn-default button-image1 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-4" aria-expanded="false" aria-controls="collapse-div4"> Discover more... </button>
             </div>
           </section>
-            <div class="collapse collapse-content collapse-content-events collapseContent-4 collapse-content-container-sm">
+            <div class="collapse collapse-content collapseContent-4 collapse-content-container-sm" id="from-div4">
               <div class="well">
               <h2>Fieldays</h2>
                 <p>Fieldays is the Southern Hemisphere's largest agribusiness exhibition. Experiencing everything from the latest technological advancements and Kiwi ingenuity in the Innovations Centre, to watching the Rural Bachelors demonstrate their agricultural expertise, to picking up the best deal on the latest farm equipment, you can experience it all at Fieldays 2017.</p>
@@ -188,122 +193,22 @@
       </div> <!-- row-1 container -->
 
       <div class="container collapse-content-container-lg hidden">
-        <div class="collapse collapse-content collapse-content-events collapseContent-1">
-              <div class="well">
-                <h2>Ironman New Zealand</h2>
-                <p>Firmly established in its hometown of Taupo since 1999, IRONMAN New Zealand showcases the best of New Zealand's outdoors and its breathtaking scenery. Thanks to the 'pure Kiwi spirit', you will feel like a local the minute you arrive. The Taupo event attracts more than 2,000 volunteers from a population of just 22,000—and you'll encounter the rest along the streets cheering you on.</p>
-                <p>Triathlon New Zealand has confirmed that the race on Saturday 3 March will be the official New Zealand Ultra Distance Championships, which is open to all New Zealand citizens and/or have permanent resident status. New Zealand also offer 40 qualifying slots for the IRONMAN World Championship in Kailua-Kona, Hawaii.</p>
-                <p>See full race details at <a href="http://ap.ironman.com/triathlon/events/asiapac/ironman/new-zealand.aspx#/axzz4eGzehJQJ" target="_blank">Ironman.com</a>.</p>
-              </div>
-            </div>
-        <div class="collapse collapse-content collapse-content-events collapseContent-2">
-              <div class="well">
-                <h2>World Masters Games</h2>
-                <p>World Masters Games 2017 is hitting Auckland and the Waikato from 21-30 April 2017, with 48 competition venues hosting the action.</p>
-                <p>In supporting the Olympic Games ethos of ‘sport for all’, the goal of the World Masters Games is to encourage participation in sport throughout life.</p>
-                <p>See full <a href="http://www.worldmastersgames2017.co.nz/" target="_blank">World Masters Games</a> schedule and venue details.</p>
-              </div>
-            </div>
-        <div class="collapse collapse-content collapse-content-events collapseContent-3">
-              <div class="well">
-                <h2>New Zealand Lions Tour</h2>
-                <p>The eagerly anticipated tour by the British and Irish Lions will provide fans with a feast of quality rugby which will be LIVE on SKY Sport.</p>
-                <p>The Lions, who last toured New Zealand in 2005 will be chasing their first series win against the All Blacks since their historic triumph in 1971.</p>
-                <p>Rugby fans are in for a treat with the Lions kicking off the tour in Whangarei against the New Zealand Barbarians, followed by games against all the Super Rugby teams, the Maori All Blacks and a three test match series.</p>
-                <br>
-                <div class="table-responsive">
-                  <table class="table table-striped">
-                    <tr class="danger">
-                      <td>Date</td>
-                      <td>Game</td>
-                      <td>Venue</td>
-                      <td>Time</td>
-                    </tr>
-                    <tr>
-                      <td>June 3rd</td>
-                      <td>v NZ Provincial Barbarians</td>
-                      <td>Whangarei</td>
-                      <td>7:35pm</td>
-                    </tr>
-                    <tr>
-                      <td>June 7th</td>
-                      <td>v Blues</td>
-                      <td>Auckland</td>
-                      <td>7:35pm</td>
-                    </tr>
-                    <tr>
-                      <td>June 10th</td>
-                      <td>v Crusaders</td>
-                      <td> Christchurch</td>
-                      <td>7:35pm</td>
-                    </tr>
-                    <tr>
-                      <td>June 13th</td>
-                      <td>v Highlanders</td>
-                      <td>Dunedin</td>
-                      <td>7:35pm</td>
-                    </tr>
-                    <tr>
-                      <td>June 17th</td>
-                      <td>v Maori All Blacks</td>
-                      <td>Rotorua</td>
-                      <td>7:35pm</td>
-                    </tr>
-                    <tr>
-                      <td>June 20th</td>
-                      <td>v Chiefs</td>
-                      <td>Hamilton</td>
-                      <td>7:35pm</td>
-                    </tr>
-                    <tr>
-                      <td>June 24th</td>
-                      <td>v All Blacks</td>
-                      <td>Auckland</td>
-                      <td>7:35pm</td>
-                    </tr>
-                    <tr>
-                      <td>June 27th</td>
-                      <td>v Hurricanes</td>
-                      <td>Wellington</td>
-                      <td>7:35pm</td>
-                    </tr>
-                    <tr>
-                      <td>July 1st</td>
-                      <td>v All Blacks</td>
-                      <td>Wellington</td>
-                      <td>7:35pm</td>
-                    </tr>
-                    <tr>
-                      <td>July 8th</td>
-                      <td>v All Blacks</td>
-                      <td>Auckland</td>
-                      <td>7:35pm</td>
-                    </tr>
-                  </table>
-                </div>
-                <p>See <a href="http://www.allblacks.com/Tickets/LionsSeries" target="_blank">New Zealand Lions Tour</a> for full details,  schedule and ticketing.</p>
-              </div>
-            </div>
-        <div class="collapse collapse-content collapse-content-events collapseContent-4">
-              <div class="well">
-                <h2>Fieldays</h2>
-                <p>Fieldays is the Southern Hemisphere's largest agribusiness exhibition. Experiencing everything from the latest technological advancements and Kiwi ingenuity in the Innovations Centre, to watching the Rural Bachelors demonstrate their agricultural expertise, to picking up the best deal on the latest farm equipment, you can experience it all at Fieldays 2017.</p>
-                <p>NZ Agricultural Fieldays 2017 will be held 14 to 17 June 2017 at Mystery Creek Events Centre, Hamilton.
-                Find out more by visiting the <a href="http://www.fieldays.co.nz/welcome" target="_blank">Fieldays website</a>.</p>
-              </div>
-            </div>
-      </div> <!-- /collapse-content-container-lg -->
+        <div class="collapse collapse-content collapseContent-1" id="collapse-div1"></div>
+        <div class="collapse collapse-content collapseContent-2" id="collapse-div2"></div>
+        <div class="collapse collapse-content collapseContent-3" id="collapse-div3"></div>
+        <div class="collapse collapse-content collapseContent-4" id="collapse-div4"></div>
+      </div> <!-- collapse-content-container-lg -->
       <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-          <section class="container-image container-image-events image-events-5">
+          <section class="container-image">
             <img class="img-responsive content-top-image" src="images/queenstown-winter-festival.jpg" alt="queenstown winter festival">
-            <div class="section-heading events-heading-5"><h3>22nd - 25th June</h3></div>
+            <div class="section-heading"><h3>22nd - 25th June</h3></div>
             <div class="middle text-center">
               <p class="text">A four day extravaganza of Queenstown's unique culture and community with street parties, fireworks, international and local acts, comedy, family fun, and plenty of Mountain Mayhem.</p>
-              <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-5" aria-expanded="false" aria-controls="collapseContent-5"> Discover more... </button>
+              <button class="btn btn-default button-image2 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-5" aria-expanded="false" aria-controls="collapse-div5"> Discover more... </button>
             </div>
           </section>
-            <div class="collapse collapse-content collapse-content-events collapseContent-5 collapse-content-container-sm">
+            <div class="collapse collapse-content collapseContent-5 collapse-content-container-sm" id="from-div5">
               <div class="well">
                 <h2>Queenstown Winter Festival</h2>
                 <p>The official celebration to mark the beginning of Queenstown’s winter season. Town will be a-buzz with people celebrating the arrival of winter in true Queenstown style.</p>
@@ -313,15 +218,15 @@
             </div>
         </div> <!-- column container -->
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-          <section class="container-image container-image-events image-events-6">
+          <section class="container-image">
             <img class="img-responsive content-top-image" src="images/winter-games-nz.jpg" alt="winter games nz">
-            <div class="section-heading events-heading-6"><h3>Aug & Sept 2017</h3></div>
+            <div class="section-heading"><h3>Aug & Sept 2017</h3></div>
             <div class="middle text-center">
               <p class="text">Winter Olympic, Paralympic and X Games stars are heading to New Zealand’s Southern Alps once again for the first major championships of the season.</p>
-              <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-6" aria-expanded="false" aria-controls="collapseContent-6"> Discover more... </button>
+              <button class="btn btn-default button-image2 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-6" aria-expanded="false" aria-controls="collapse-div6"> Discover more... </button>
             </div>
           </section>
-            <div class="collapse collapse-content collapse-content-events collapseContent-6 collapse-content-container-sm">
+            <div class="collapse collapse-content collapseContent-6 collapse-content-container-sm" id="from-div6">
               <div class="well">
                 <h2>Winter Games New Zealand</h2>
                 <p>The fifth biennial Audi quattro Winter Games NZ are taking place during August and September 2017.
@@ -332,15 +237,15 @@
             </div>
         </div> <!-- column container -->
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-          <section class="container-image container-image-events image-events-7">
+          <section class="container-image">
             <img class="img-responsive content-top-image" src="images/rugbly-league-world-cup-2017.jpg" alt="rugbly league world cup 2017">
-            <div class="section-heading events-heading-7"><h3>Oct - Dec 2017</h3></div>
+            <div class="section-heading"><h3>Oct - Dec 2017</h3></div>
             <div class="middle text-center">
               <p class="text">Can Australia defend their title and maintain their world dominance in Rugby League? We'll see in this year's Rugby League world cup, hosted in Australia, New Zealand and Papua New Guinea.</p>
-              <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-7" aria-expanded="false" aria-controls="collapseContent-7"> Discover more... </button>
+              <button class="btn btn-default button-image2 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-7" aria-expanded="false" aria-controls="collapse-div7"> Discover more... </button>
             </div>
           </section>
-            <div class="collapse collapse-content collapse-content-events collapseContent-7 collapse-content-container-sm">
+            <div class="collapse collapse-content collapseContent-7 collapse-content-container-sm" id="from-div7">
               <div class="well">
                <h2>Rugby League World Cup</h2>
                 <p>The Rugby League World Cup is Rugby League’s premier international competition. First held in 1954, the 2017 Rugby League World Cup is the 15th iteration of the historic tournament. The 2017 competition will feature 14 mens and 6 womens teams from around the globe, hosted in Australia, New Zealand and Papua New Guinea. </p>
@@ -349,15 +254,15 @@
             </div>
         </div> <!-- column container -->
         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-          <section class="container-image container-image-events image-events-8">
+          <section class="container-image">
             <img class="img-responsive content-top-image" src="images/nz-cup-and-show-week.jpg" alt="nz cup and show week">
-            <div class="section-heading events-heading-8"><h3>11th - 18th Nov 2017</h3></div>
+            <div class="section-heading"><h3>11th - 18th Nov 2017</h3></div>
             <div class="middle text-center">
               <p class="text">Racing and fashion go hand-in-hand and there is no time where style is more at the forefront than during New Zealand Cup and Show Week.</p>
-              <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-8" aria-expanded="false" aria-controls="collapseContent-8"> Discover more... </button>
+              <button class="btn btn-default button-image2 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-8" aria-expanded="false" aria-controls="collapse-div8"> Discover more... </button>
             </div>
           </section>
-            <div class="collapse collapse-content collapse-content-events collapseContent-8 collapse-content-container-sm">
+            <div class="collapse collapse-content collapseContent-8 collapse-content-container-sm" id="from-div8">
               <div class="well">
                 <h2>NZ Cup & Show Week</h2>
                 <p>Hold onto your hats fashionistas – New Zealand Cup and Show Week is your time to shine.</p>
@@ -369,40 +274,11 @@
         </div> <!-- column container -->
       </div> <!-- row-2 container -->
       <div class="container collapse-content-container-lg hidden">
-        <div class="collapse collapse-content collapse-content-events collapseContent-5">
-              <div class="well">
-                <h2>Queenstown Winter Festival</h2>
-                <p>The official celebration to mark the beginning of Queenstown’s winter season. Town will be a-buzz with people celebrating the arrival of winter in true Queenstown style.</p>
-                <p>The Queenstown Winter Festival will be jam-packed with fantastic events across Thursday 22 June - Sunday 25 June. A four day extrazaganza celebrating the start of winter like only Queenstown can.</p>
-                <p>Check out <a href="https://www.winterfestival.co.nz/" target="_blank">Queenstown Winter Festival</a> for more details.</p>
-              </div>
-        </div>
-        <div class="collapse collapse-content collapse-content-events collapseContent-6">
-              <div class="well">
-                <h2>Winter Games New Zealand</h2>
-                <p>The fifth biennial Audi quattro Winter Games NZ are taking place during August and September 2017.
-                Watch the worlds best compete for glory in freestyle skiing, snowboarding, alpine skiing, cross-country skiing and curling, then enjoy the fun festival programme that promises to be bigger and better than ever.</p>
-                <p>The Games are one of the world’s top five winter sports competitions and the only one in the southern hemisphere.</p>
-                <p>For the latest event news and updates got to <a href="http://www.wintergamesnz.kiwi/" target="_blank">Winter Games NZ</a>.</p>
-              </div>
-        </div>
-        <div class="collapse collapse-content collapse-content-events collapseContent-7">
-              <div class="well">
-                <h2>Rugby League World Cup</h2>
-                <p>The Rugby League World Cup is Rugby League’s premier international competition. First held in 1954, the 2017 Rugby League World Cup is the 15th iteration of the historic tournament. The 2017 competition will feature 14 mens and 6 womens teams from around the globe, hosted in Australia, New Zealand and Papua New Guinea. </p>
-                <p>Go to <a href="http://www.rlwc2017.com/" target="_blank">Rugby League World Cup 2017</a> for full schedule and ticketing</p>
-              </div>
-        </div>
-        <div class="collapse collapse-content collapse-content-events collapseContent-8">
-              <div class="well">
-                <h2>NZ Cup & Show Week</h2>
-                <p>Hold onto your hats fashionistas – New Zealand Cup and Show Week is your time to shine.</p>
-                <p>New Zealand Cup and Show Week will be held in Christchurch from Saturday 11 to Saturday 18 November 2017. Christchurch is vibrant with retail areas throughout the city and the night life is buzzing.</p>
-                <p>Riccarton Racecourse and Addington Raceway will be awash with fabulous fashions so if you don’t want to be lagging behind the competition you need to hit the stores now and start piecing together your race-day outfit.</p>
-                <p> See full race day details at <a href="http://www.nzcupandshow.co.nz/" target="_blank">New Zealand Cup & Show Week</a>.</p>
-              </div>
-        </div>
-      </div> <!-- /collapse-content-container-lg -->
+        <div class="collapse collapse-content collapseContent-5" id="collapse-div5"></div>
+        <div class="collapse collapse-content collapseContent-6" id="collapse-div6"></div>
+        <div class="collapse collapse-content collapseContent-7" id="collapse-div7"></div>
+        <div class="collapse collapse-content collapseContent-8" id="collapse-div8"></div>
+      </div> <!-- collapse-content-container-lg -->
     </div>
     <div class="container-fluid content-middle-background">
       <div class="container content-middle">
@@ -410,13 +286,13 @@
           <div class="col-md-8 content">
             <h2>More Than Just The Outdoors</h2>
             <p>Although justly famous for action and adventure, New Zealand boasts a wide range of other activities and festivals to keep you entertained from dawn till dusk - and beyond!</p>
-            <p>New Zealanders love to celebrate, and you’ll find all manner of parties and festivals happening throughout the year. Wine, music, arts and crafts, sports, horse racing, dance and fashion, flowers, architecture, scallops and even Huhu Grubs take their turn. New Zealand loves to highlight its natural talents and bounty! So whether you are a fashionista, want to get a dose of Kiwi live music or sample colourful New Zealand cuisine, ensure you catch some of the country’s classic events.</p>
+            <p>New Zealanders love to celebrate, and you’ll find all manner of parties and festivals happening throughout the year. Wine, music, arts and crafts, sports, horse racing, dance and fashion, flowers, architecture, scallops and even Huhu Grubs take their turn. New Zealand loves to highlight its natural talents and bounty! So whether you are a fashionista, want to get a dose of 'Kiwi' live music or sample colourful New Zealand cuisine, ensure you catch some of the country’s classic events.</p>
             <p>Sample fresh local produce and world-class wine at one of the many food and wine festivals. Go on an adventure through lush countryside to majestic mountains on a cycling event. Share the thrill of being in the audience of a major sport event or take part in a race yourself. Experience New Zealand’s native culture and thriving arts scene or enjoy an outdoor music festival set against a beautiful backdrop. Can't find what you're looking for? Check out <a href="https://www.eventfinda.co.nz/">Eventfinda</a> for a full list of local and community based events.</p>
             <div class="map-container">
               <h2>Plan Your Trip</h2>
-              <iframe src="https://www.google.com/maps/d/embed?mid=1yQr9u0egxMR0uZZyvIXZw5dH0Sc" width="100%" height="240"></iframe>
+              <iframe src="https://www.google.com/maps/d/embed?mid=1yQr9u0egxMR0uZZyvIXZw5dH0Sc" height="240"></iframe>
             </div>
-          </div> <!-- /.content container -->
+          </div> <!-- content container -->
           <div class="col-md-4 content-sidebar">
             <div class="well search-form">
               <div class="input-group">
@@ -427,12 +303,12 @@
                       </button>
                   </span>
               </div>
-            </div> <!-- /.search-form -->
+            </div> <!-- search-form -->
             <div class="well social-icons text-center">
-              <a href="#" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-linkedin"></a>
-            </div> <!-- /.social-icons -->
+              <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+              <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+              <a href="https://nz.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+            </div> <!-- social-icons -->
             <div class="well references text-left">
               <h3>Site References</h3>
               <ul class="navbar-sidebar">
@@ -443,71 +319,43 @@
                 <li><a href="http://www.tourism.net.nz/new-zealand/about-new-zealand/culture.html" target="_blank">New Zealand Tourism Guide</a></li>
                 <li><a href="http://www.destination-nz.com/" target="_blank">Destination New Zealand</a></li>
                 <li><a href="https://www.google.co.nz/destination?q=new+zealand+best+attractions&espv=2&biw=1440&bih=803&site=search&output=search&dest_mid=/m/0ctw_b&sa=X&ved=0ahUKEwjXpIHRkZHTAhUIGJQKHV7UC5AQ7NEBCBooADAA" target="_blank">Google - Travel Guide</a></li>
-                <li><a href="http://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/" target="_blank">Department of Conversation</a></li>
+                <li><a href="http://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/" target="_blank">Department of Conservation</a></li>
                 <li><a href="http://www.seeanddo.co.nz/rotorua" target="_blank">See & Do New Zealand</a></li>
               </ul>
-            </div> <!-- /references -->
+            </div> <!-- references -->
             <div class="well signup-form text-left">
               <h3>Receive Our Newsletter</h3>
               <form>
                 <div class="form-group">
-                  <label for="InputName">Name</label>
-                  <input type="text" class="form-control" id="contentInputPassword1" placeholder="Name">
+                  <label for="input-name" class="required-field">Name</label>
+                  <input type="text" class="form-control name-field" id="input-name" placeholder="George Smith">
                 </div>
                 <div class="form-group">
-                  <label for="InputEmail1">Email</label>
-                  <input type="email" class="form-control" id="InputEmail1" placeholder="Email">
+                  <label for="input-email" class="required-field">Email</label>
+                  <input type="email" class="form-control email-field" id="input-email" placeholder="name@domain.co.nz">
                 </div>
-                <button type="submit" class="btn btn-default signup-button text-uppercase">Sign Me Up!</button>
+                <button class="btn btn-default signup-button text-uppercase" id="newsletter-button" type="button">Sign Me Up!</button>
               </form>
-            </div> <!-- /signup-form -->
-          </div> <!-- /content-sidebar container -->
+              <div class="error-message" id="nl-error-message"></div>
+            </div> <!-- signup-form -->
+          </div> <!-- content-sidebar container -->
         </div>
       </div>
-    </div> <!-- /content-middle-background -->
-    <!-- <div class="container-fluid content-bottom-background">
-      <div class="container content-bottom">
-        <div class="col-md-6 map-container">
-          <h2>Plan Your Trip</h2>
-          <iframe src="https://www.google.com/maps/d/embed?mid=1yQr9u0egxMR0uZZyvIXZw5dH0Sc" width="100%" height="240"></iframe>
-        </div>
-        <div class="col-md-6 video-container responsive-embed">
-          <h2>Travel New Zealand in a Minute</h2>
-          <iframe width="100%" height="240" src="https://www.youtube.com/embed/fHCemviY06Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div> -->
+    </div> <!-- content-middle-background -->
     <footer>
         <div class="container-fluid footer-background">
           <div class="container footer-container">
             <div class="row">
               <div class="col-sm-6 col-md-3">
                 <section class="section-footer">
-                  <h3>Contact</h3>
-                  <ul class="navbar-footer text-uppercase">
-                    <li>Kombi Media</li>
-                    <li>+64 21 288 0078</li>
-                    <li><a href="mailto:cy@kombimedia.nz">cy@kombimedia.nz</a></li>
-                    <li>35 Galloway Cres</li>
-                    <li>Pyes Pa</li>
-                    <li>Tauranga 3112</li>
-                  </ul>
+                  <h3 class="footer-brand">New Zealand</h3>
+                  <p class="footer-brand-content">A place of beauty, action and adventure. Where rugby rules the roost,
+                  sheep fill the fields and Kiwi hospitality shines through. Come... Stay a while...</p>
                 </section>
               </div>
               <div class="col-sm-6 col-md-3">
                 <section class="section-footer">
-                  <h3>History</h3>
-                  <ul class="navbar-footer menu-footer text-uppercase">
-                    <li><a href="#">Māori Settlers</a></li>
-                    <li><a href="#">Early Europeans</a></li>
-                    <li><a href="#">Treaty of Waitangi</a></li>
-                    <li><a href="#">Modern New Zealand Culture</a></li>
-                  </ul>
-                </section>
-              </div>
-              <div class="col-sm-6 col-md-3">
-                <section class="section-footer">
-                  <h3>Attractions</h3>
+                  <h3>Attractions Links</h3>
                   <ul class="navbar-footer text-uppercase">
                     <li><a target="_blank" href="http://www.bay-of-islands.co.nz/">Bay of Islands</a></li>
                     <li><a target="_blank" href="http://www.hobbitontours.com/">Hobbiton Movie Set</a></li>
@@ -522,16 +370,29 @@
               </div>
               <div class="col-sm-6 col-md-3">
                 <section class="section-footer">
-                  <h3>Events</h3>
+                  <h3>Events Links</h3>
                   <ul class="navbar-footer text-uppercase">
                     <li><a target="_blank" href="http://ap.ironman.com/triathlon/events/asiapac/ironman/new-zealand.aspx#/axzz4eGzehJQJ">Ironman Nz</a></li>
                     <li><a target="_blank" href="http://www.worldmastersgames2017.co.nz/">World Masters Games</a></li>
                     <li><a target="_blank" href="http://www.allblacks.com/Tickets/LionsSeries">NZ Lions Series</a></li>
-                    <li><a target="_blank" href="events.html">Fieldays</a></li>
+                    <li><a target="_blank" href="http://www.fieldays.co.nz/">Fieldays</a></li>
                     <li><a target="_blank" href="https://www.winterfestival.co.nz/">Queenstown Winter Festival</a></li>
                     <li><a target="_blank" href="http://www.wintergamesnz.kiwi/">Winter Games NZ</a></li>
                     <li><a target="_blank" href="http://www.rlwc2017.com/">Rugby League WC</a></li>
                     <li><a target="_blank" href="http://www.nzcupandshow.co.nz/">NZ Cup Week</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <section class="section-footer">
+                  <h3>Contact</h3>
+                  <ul class="navbar-footer text-uppercase">
+                    <li>Kombi Media</li>
+                    <li>+64 21 288 0078</li>
+                    <li><a href="mailto:cy@kombimedia.nz">cy@kombimedia.nz</a></li>
+                    <li>35 Galloway Cres</li>
+                    <li>Pyes Pa</li>
+                    <li>Tauranga 3112</li>
                   </ul>
                 </section>
               </div>

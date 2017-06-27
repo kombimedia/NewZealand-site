@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" A tribute to NZs beauty and history="">
-    <meta name="author" Cy Messenger="">
+    <meta name="description" content="A tribute to NZs beauty and history">
+    <meta name="author" content="Cy Messenger">
     <link rel="icon" href="images/favicon.png">
-    <title>New Zealand - Natural Beauty - Contact Us</title>
+    <title>New Zealand - History - Attractions - Events - Contact Us</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Berkshire%20Swash' rel='stylesheet'>
     <link href='http://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -22,52 +22,59 @@
     <![endif]-->
   </head>
   <body class="map">
-      <nav class="navbar navbar-fixed-top text-center" id="back-to-top">
-        <div class="container">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="index.html">New Zealand</a>
-            </div>
-            <div id="navbar">
-              <ul class="nav navbar-nav text-uppercase">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">New Zealand</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav text-uppercase text-left">
                 <li><a class="glyphicon glyphicon-home" href="index.html"></a></li>
                 <li><a href="history.html">History</a></li>
                 <li><a href="attractions.html">Attractions</a></li>
                 <li><a href="events.html">Events</a></li>
                 <li class="active"><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-        </div>
-      </nav>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
     <div class="container-fluid content-top contact-page-background">
       <div class="container">
-        <h1 class="text-left">Contact Us</h1>
+        <h1 class="text-center page-heading">Contact Us</h1>
         <div class="row">
           <div class="col-md-8 contact-content">
             <form class="text-left">
               <div class="form-group">
-                <label for="InputName">Name</label>
-                <input type="text" class="form-control" id="form-name" placeholder="Name">
+                <label for="form-name" class="required-field">Name</label>
+                <input type="text" class="form-control name-field" id="form-name" placeholder="George Smith">
               </div>
               <div class="form-group">
-                <label for="InputEmail">Email address</label>
-                <input type="email" class="form-control" id="form-email" placeholder="Email">
+                <label for="form-email" class="required-field">Email address</label>
+                <input type="email" class="form-control email-field" id="form-email" placeholder="name@domain.co.nz">
               </div>
               <div class="form-group">
-                <label for="InputPhone">Phone</label>
-                <input type="tel" class="form-control" id="form-phone" placeholder="Phone">
+                <label for="form-phone" class="required-field">Phone</label>
+                <input type="tel" class="form-control" id="form-phone" placeholder="0212880078">
               </div>
               <div>
-                <label for="InputMessage">Message</label>
-                <textarea class="form-control" rows="3" placeholder="Write message"></textarea>
+                <label for="form-message" class="required-field">Message</label>
+                <textarea class="form-control" id="form-message" rows="3" placeholder="Type your message, maximum of 500 characters"></textarea>
               </div>
-              <button type="submit" class="btn btn-default btn-lg submit-button text-uppercase">Send Message</button>
+              <button type="button" class="btn btn-default btn-lg submit-button text-uppercase" id="contact-button">Send Message</button>
             </form>
+            <div class="error-message" id="contact-error-message"></div>
             <div class="row contact-page-map">
               <div class="col-md-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.297672248077!2d176.12448685186538!3d-37.73616023728239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6dda850ae2c5ff%3A0x5c6a8c264a1bd00!2s35+Galloway+Cres%2C+Pyes+Pa+3112!5e0!3m2!1sen!2snz!4v1491727686006" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.297672248077!2d176.12448685186538!3d-37.73616023728239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6dda850ae2c5ff%3A0x5c6a8c264a1bd00!2s35+Galloway+Cres%2C+Pyes+Pa+3112!5e0!3m2!1sen!2snz!4v1491727686006" height="450" style="border:0" allowfullscreen></iframe>
               </div>
             </div>
-          </div> <!-- /.contact-content container -->
+          </div> <!-- contact-content container -->
           <div class="col-md-4 content-sidebar">
             <div class="well search-form">
               <div class="input-group">
@@ -78,12 +85,12 @@
                       </button>
                   </span>
               </div>
-            </div> <!-- /.search-form -->
+            </div> <!-- search-form -->
             <div class="well social-icons text-center">
-              <a href="#" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-linkedin"></a>
-            </div> <!-- /.social-icons -->
+              <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+              <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+              <a href="https://nz.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+            </div> <!-- social-icons -->
             <div class="well references text-left">
               <h3>Site References</h3>
               <ul class="navbar-sidebar">
@@ -94,59 +101,43 @@
                 <li><a href="http://www.tourism.net.nz/new-zealand/about-new-zealand/culture.html" target="_blank">New Zealand Tourism Guide</a></li>
                 <li><a href="http://www.destination-nz.com/" target="_blank">Destination New Zealand</a></li>
                 <li><a href="https://www.google.co.nz/destination?q=new+zealand+best+attractions&espv=2&biw=1440&bih=803&site=search&output=search&dest_mid=/m/0ctw_b&sa=X&ved=0ahUKEwjXpIHRkZHTAhUIGJQKHV7UC5AQ7NEBCBooADAA" target="_blank">Google - Travel Guide</a></li>
-                <li><a href="http://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/" target="_blank">Department of Conversation</a></li>
+                <li><a href="http://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/" target="_blank">Department of Conservation</a></li>
                 <li><a href="http://www.seeanddo.co.nz/rotorua" target="_blank">See & Do New Zealand</a></li>
               </ul>
-            </div> <!-- /references -->
+            </div> <!-- references -->
             <div class="well signup-form text-left">
               <h3>Receive Our Newsletter</h3>
               <form>
                 <div class="form-group">
-                  <label for="InputName">Name</label>
-                  <input type="text" class="form-control" id="contentInputPassword1" placeholder="Name">
+                  <label for="input-name" class="required-field">Name</label>
+                  <input type="text" class="form-control name-field" id="input-name" placeholder="George Smith">
                 </div>
                 <div class="form-group">
-                  <label for="InputEmail1">Email</label>
-                  <input type="email" class="form-control" id="InputEmail1" placeholder="Email">
+                  <label for="input-email" class="required-field">Email</label>
+                  <input type="email" class="form-control email-field" id="input-email" placeholder="name@domain.co.nz">
                 </div>
-                <button type="submit" class="btn btn-default signup-button text-uppercase">Sign Me Up!</button>
+                <button class="btn btn-default signup-button text-uppercase" id="newsletter-button" type="button">Sign Me Up!</button>
               </form>
-            </div> <!-- /signup-form -->
-          </div> <!-- /content-sidebar container -->
-        </div> <!-- /row -->
+              <div class="error-message" id="nl-error-message"></div>
+            </div> <!-- signup-form -->
+          </div> <!-- content-sidebar container -->
+        </div> <!-- row -->
       </div>
-    </div> <!-- /content top container -->
+    </div> <!-- content top container -->
     <footer>
         <div class="container-fluid footer-background">
           <div class="container footer-container">
             <div class="row">
               <div class="col-sm-6 col-md-3">
                 <section class="section-footer">
-                  <h3>Contact</h3>
-                  <ul class="navbar-footer text-uppercase">
-                    <li>Kombi Media</li>
-                    <li>+64 21 288 0078</li>
-                    <li><a href="mailto:cy@kombimedia.nz">cy@kombimedia.nz</a></li>
-                    <li>35 Galloway Cres</li>
-                    <li>Pyes Pa</li>
-                    <li>Tauranga 3112</li>
-                  </ul>
+                  <h3 class="footer-brand">New Zealand</h3>
+                  <p class="footer-brand-content">A place of beauty, action and adventure. Where rugby rules the roost,
+                  sheep fill the fields and Kiwi hospitality shines through. Come... Stay a while...</p>
                 </section>
               </div>
               <div class="col-sm-6 col-md-3">
                 <section class="section-footer">
-                  <h3>History</h3>
-                  <ul class="navbar-footer menu-footer text-uppercase">
-                    <li><a href="#">Māori Settlers</a></li>
-                    <li><a href="#">Early Europeans</a></li>
-                    <li><a href="#">Treaty of Waitangi</a></li>
-                    <li><a href="#">Modern New Zealand Culture</a></li>
-                  </ul>
-                </section>
-              </div>
-              <div class="col-sm-6 col-md-3">
-                <section class="section-footer">
-                  <h3>Attractions</h3>
+                  <h3>Attractions Links</h3>
                   <ul class="navbar-footer text-uppercase">
                     <li><a target="_blank" href="http://www.bay-of-islands.co.nz/">Bay of Islands</a></li>
                     <li><a target="_blank" href="http://www.hobbitontours.com/">Hobbiton Movie Set</a></li>
@@ -161,16 +152,29 @@
               </div>
               <div class="col-sm-6 col-md-3">
                 <section class="section-footer">
-                  <h3>Events</h3>
+                  <h3>Events Links</h3>
                   <ul class="navbar-footer text-uppercase">
                     <li><a target="_blank" href="http://ap.ironman.com/triathlon/events/asiapac/ironman/new-zealand.aspx#/axzz4eGzehJQJ">Ironman Nz</a></li>
                     <li><a target="_blank" href="http://www.worldmastersgames2017.co.nz/">World Masters Games</a></li>
                     <li><a target="_blank" href="http://www.allblacks.com/Tickets/LionsSeries">NZ Lions Series</a></li>
-                    <li><a target="_blank" href="events.html">Fieldays</a></li>
+                    <li><a target="_blank" href="http://www.fieldays.co.nz/">Fieldays</a></li>
                     <li><a target="_blank" href="https://www.winterfestival.co.nz/">Queenstown Winter Festival</a></li>
                     <li><a target="_blank" href="http://www.wintergamesnz.kiwi/">Winter Games NZ</a></li>
                     <li><a target="_blank" href="http://www.rlwc2017.com/">Rugby League WC</a></li>
                     <li><a target="_blank" href="http://www.nzcupandshow.co.nz/">NZ Cup Week</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <section class="section-footer">
+                  <h3>Contact</h3>
+                  <ul class="navbar-footer text-uppercase">
+                    <li>Kombi Media</li>
+                    <li>+64 21 288 0078</li>
+                    <li><a href="mailto:cy@kombimedia.nz">cy@kombimedia.nz</a></li>
+                    <li>35 Galloway Cres</li>
+                    <li>Pyes Pa</li>
+                    <li>Tauranga 3112</li>
                   </ul>
                 </section>
               </div>
@@ -179,7 +183,7 @@
         </div>
         <div class="container-fluid copyright-background">
           <div class="container copyright">
-            <p>Copyright 2017 | Developed by <a href="http://kombimedia.nz" target="_blank">Kombi Media</a></p>
+            <p>Copyright 2017 | Developed by <a href="http://kombimedia.nz" target="_blank">Kombi Media</a> | <a href="http://cymessenger.co.nz/visioncollege/newzealand/downloads/newzealand-website-project-cy-messenger.zip">Download Assignment</a></p>
           </div>
         </div>
         <a class="go-top" href="#back-to-top"><i class="glyphicon glyphicon-chevron-up" aria-hidden="true"></i></a>

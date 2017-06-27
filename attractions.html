@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" A tribute to NZs beauty and history="">
-    <meta name="author" Cy Messenger="">
+    <meta name="description" content="A tribute to NZs beauty and history">
+    <meta name="author" content="Cy Messenger">
     <link rel="icon" href="images/favicon.png">
     <title>New Zealand's Best Attractions</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Berkshire%20Swash' rel='stylesheet'>
     <link href='http://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -22,54 +22,60 @@
     <![endif]-->
   </head>
   <body class="attractions">
-    <nav class="navbar navbar-fixed-top text-center" id="back-to-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">New Zealand</a>
-          </div>
-          <div id="navbar">
-            <ul class="nav navbar-nav text-uppercase">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">New Zealand</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav text-uppercase text-left">
                 <li><a class="glyphicon glyphicon-home" href="index.html"></a></li>
                 <li><a href="history.html">History</a></li>
                 <li class="active"><a href="attractions.html">Attractions</a></li>
                 <li><a href="events.html">Events</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
+          </ul>
+        </div><!-- nav-collapse -->
       </div>
-    </nav> <!-- nav container -->
+    </nav>
     <div class="container-fluid content-top">
-        <h1>New Zealand's Favourite Attractions</h1>
+        <h1 class="text-center page-heading">New Zealand's Favourite Attractions</h1>
         <div class="row">
           <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-            <section class="container-image container-image-attractions image-attractions-1">
+            <section class="container-image">
               <img class="img-responsive content-top-image" src="images/bay-of-islands.jpg" alt="bay of islands">
-              <div class="section-heading attractions-heading-1"><h3>Bay of Islands</h3></div>
+              <div class="section-heading"><h3>Bay of Islands</h3></div>
               <div class="middle text-center">
                 <p class="text">The Bay of Islands is one of New Zealand’s favourite travel destinations, known for its stunning beaches, big-game fishing and Maori cultural artifacts.</p>
-                <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-1" aria-expanded="false" aria-controls="collapseContent-1"> Discover more... </button>
+                <button class="btn btn-default button-image1 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-1" aria-expanded="false" aria-controls="collapse-div1"> Discover more... </button>
               </div>
             </section>
-              <div class="collapse collapse-content collapse-content-attractions collapseContent-1 collapse-content-container-sm">
+              <div class="collapse collapse-content collapseContent-1 collapse-content-container-sm" id="from-div1">
                 <div class="well">
                   <h2>Bay of Islands</h2>
                   <p>With over 140 islands and numerous small towns, there are a wide range of activities to do in the Bay of Islands.</p>
-                  <p>It's home to the 19th-century whaling port of Russell, whose waterfront promenade is lined with remnants from its days as the country’s first colonial capital. It's also home to Waitangi, the birthplace of New Zealand.</p>
+                  <p>It's home to the 19th-century whaling port of Russell, whose waterfront promenade is lined with remnants from its days as the country’s first colonial capital. It's also home to Waitangi, the birthplace of 'New Zealand'.</p>
                   <p>The Bay of Islands is a maritime adventure playground with an abundance of wildlife including penguins, dolphins, marlin, whales, gannets and more. A choice of tour operators in the region offer excellent tours and trips around the area. There are many small towns throughout the Bay of Islands with great restaurants, bars, arts & crafts and entertainment.</p>
                   <p>Visit <a href="http://www.bay-of-islands.co.nz/" target="_blank">Bay on Islands</a> for more information on what this fantastic area has to offer.</p>
                   </div>
               </div>
           </div> <!-- column container -->
           <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-            <section class="container-image container-image-attractions image-attractions-2">
+            <section class="container-image">
               <img class="img-responsive content-top-image" src="images/hobbiton-movie-set.jpg" alt="hobbiton movie set">
-              <div class="section-heading attractions-heading-2"><h3>Hobbiton Movie Set</h3></div>
+              <div class="section-heading"><h3>Hobbiton Movie Set</h3></div>
               <div class="middle text-center">
                 <p class="text">In the heart of New Zealand, you can step into the lush pastures of the Shire™, as featured in The Lord of the Rings and The Hobbit trilogies.</p>
-                <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-2" aria-expanded="false" aria-controls="collapseContent-2"> Discover more... </button>
+                <button class="btn btn-default button-image1 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-2" aria-expanded="false" aria-controls="collapse-div2"> Discover more... </button>
               </div>
             </section>
-              <div class="collapse collapse-content collapse-content-attractions collapseContent-2 collapse-content-container-sm">
+              <div class="collapse collapse-content collapseContent-2 collapse-content-container-sm" id="from-div2">
                 <div class="well">
                   <h2>Hobbiton Movie Set</h2>
                   <p>Hobbiton™ Movie Set is an experience to tantalise the senses of visitors from all across the globe, as guests find themselves engulfed in the sights, smells, sounds and tastes of The Shire™, at the home of the Hobbits™, as featured in The Lord of the Rings and The Hobbit Trilogies.</p>
@@ -80,15 +86,15 @@
               </div>
           </div> <!-- column container -->
           <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-            <section class="container-image container-image-attractions image-attractions-3">
+            <section class="container-image">
               <img class="img-responsive content-top-image" src="images/rotorua.jpg" alt="Rotorua.jpg">
-              <div class="section-heading attractions-heading-3"><h3>Rotorua</h3></div>
+              <div class="section-heading"><h3>Rotorua</h3></div>
               <div class="middle text-center">
                 <p class="text">Rotorua is a place of fascinating Māori culture, hot springs and boiling mud pools. Situated on the Volcanic Plateau it is one of the world’s most lively fields of geothermal activity.</p>
-                <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-3" aria-expanded="false" aria-controls="collapseContent-3"> Discover more... </button>
+                <button class="btn btn-default button-image1 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-3" aria-expanded="false" aria-controls="collapse-div3"> Discover more... </button>
               </div>
             </section>
-              <div class="collapse collapse-content collapse-content-attractions collapseContent-3 collapse-content-container-sm">
+              <div class="collapse collapse-content collapseContent-3 collapse-content-container-sm" id="from-div3">
                 <div class="well">
                   <h2>Rotorua</h2>
                   <p>Rotorua is one of New Zealands main tourist stops. There are many attractions and activities, everything from Agroventures and wildlife parks to skydiving, luging and zorbing. Rotoura has one of New Zealand’s best mountain bike circuits and is also a popular trout fishing area.</p>
@@ -99,19 +105,19 @@
               </div>
           </div> <!-- column container -->
           <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-            <section class="container-image container-image-attractions image-attractions-4">
+            <section class="container-image">
               <img class="img-responsive content-top-image" src="images/tongariro-national-park.jpg" alt="tongariro national park.jpg">
-              <div class="section-heading attractions-heading-4"><h3>Tongariro National Park</h3></div>
+              <div class="section-heading"><h3>Tongariro National Park</h3></div>
               <div class="middle text-center">
                 <p class="text">Tongariro is New Zealand's oldest national park and a dual World Heritage area. This status recognises the park's important Maori cultural and spiritual associations as well as its outstanding volcanic features.</p>
-                <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-4" aria-expanded="false" aria-controls="collapseContent-4"> Discover more... </button>
+                <button class="btn btn-default button-image1 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-4" aria-expanded="false" aria-controls="collapse-div4"> Discover more... </button>
               </div>
             </section>
-              <div class="collapse collapse-content collapse-content-attractions collapseContent-4 collapse-content-container-sm">
+              <div class="collapse collapse-content collapseContent-4 collapse-content-container-sm" id="from-div4">
                 <div class="well">
                   <h2>Tongariro National Park</h2>
                   <p>Tongariro National Park is one of three World Heritage sites in New Zealand. The other two are Te Wahipounamu in the South Island, and the Sub Antarctic Islands.</p>
-                  <p>The most popular activity in the park is the Tongariro Alpine Crossing. The Track crosses stark and spectacular volcanic terrain, traversing between Mt Ngauruhoe and Mt Tongariro. Among its highlights are steaming vents and hot springs, old lava flows, beautiful water-filled explosion craters and stunning views. On clear days you can see Mount Taranaki in the west, Mount Ngauruhoe, the Kaimanawa Ranges, Lake Taupo and beyond. Take a bus to/from the walk and avoid limited parking at road ends.</p>
+                  <p>The most popular activity in the park is the Tongariro Alpine Crossing. The Track crosses stark and spectacular volcanic terrain, traversing between Mt Ngauruhoe and Mt Tongariro. Among its highlights are steaming vents and hot springs, old lava flows, beautiful water-filled craters and stunning views. On clear days you can see Mount Taranaki in the west, Mount Ngauruhoe, the Kaimanawa Ranges, Lake Taupo and beyond. Take a bus to/from the walk and avoid limited parking at road ends.</p>
                   <p>The Tongariro region has many more activities on offer from high tea at the iconic Chateau Tongariro, mountain biking, white water rafting, trout fishing and all levels of hiking tracks to sight seeing rides up Mt Ruapehu and skiing in the winter time.</p>
                   <p>Visit <a href="http://www.nationalpark.co.nz/" target="_blank">Tongariro Nationl Park</a> for more information on this beautiful volcanic wonderland.</p>
                 </div>
@@ -119,54 +125,22 @@
           </div> <!-- column container -->
         </div> <!-- row-1 container -->
         <div class="container collapse-content-container-lg hidden">
-          <div class="collapse collapse-content collapse-content-attractions collapseContent-1">
-                <div class="well">
-                  <h2>Bay of Islands</h2>
-                  <p>With over 140 islands and numerous small towns, there are a wide range of activities to do in the Bay of Islands.</p>
-                  <p>It's home to the 19th-century whaling port of Russell, whose waterfront promenade is lined with remnants from its days as the country’s first colonial capital. It's also home to Waitangi, the birthplace of New Zealand.</p>
-                  <p>The Bay of Islands is a maritime adventure playground with an abundance of wildlife including penguins, dolphins, marlin, whales, gannets and more. A choice of tour operators in the region offer excellent tours and trips around the area. There are many small towns throughout the Bay of Islands with great restaurants, bars, arts & crafts and entertainment.</p>
-                  <p>Visit <a href="http://www.bay-of-islands.co.nz/" target="_blank">Bay on Islands</a> for more information on what this fantastic area has to offer.</p>
-                </div>
-              </div>
-            <div class="collapse collapse-content collapse-content-attractions collapseContent-2">
-                <div class="well">
-                 <h2>Hobbiton Movie Set</h2>
-                  <p>Hobbiton™ Movie Set is an experience to tantalise the senses of visitors from all across the globe, as guests find themselves engulfed in the sights, smells, sounds and tastes of The Shire™, at the home of the Hobbits™, as featured in The Lord of the Rings and The Hobbit Trilogies.</p>
-                  <p>The extraordinary following that the movies have amassed has led to the tours becoming a must see while travelers are in New Zealand. The Hobbiton Movie Set is the only set that remains intact from the trilogies, and that allows visitors to fully immerse themselves in the wonders of The Shire.</p>
-                  <p>Visitors are given the once in a lifetime opportunity to see an iconic movie set in its full glory; from wandering the rambling paths of The Shire, to seeing the submerged Hobbit Holes™ that litter the rolling hillsides.</p>
-                  <p>Visit <a href="http://www.hobbitontours.com/" target="_blank">Hobbiton Movie Set</a> for more information on this unique experience.</p>
-                </div>
-            </div>
-            <div class="collapse collapse-content collapse-content-attractions collapseContent-3">
-                <div class="well">
-                  <h2>Rotorua</h2>
-                  <p>Rotorua is one of New Zealands main tourist stops. There are many attractions and activities, everything from Agroventures and wildlife parks to skydiving, luging and zorbing. Rotoura has one of New Zealand’s best mountain bike circuits and is also a popular trout fishing area.</p>
-                  <p>Explore the region's 18 lakes, try a traditional hangi feast, cooked in the steaming ground, take a tour of an authentic pre-European Māori village or treat yourself to an indulgent spa therapy.</p>
-                  <p>A town set on its namesake lake on New Zealand's North Island, Rotorua is renowned for its geothermal activity and Maori culture. In Te Puia’s Whakarewarewa Valley, there are bubbling mud pools and the 30m-tall Pohutu Geyser, which erupts many times daily. It’s also home to a living Maori village and the New Zealand Maori Arts and Crafts Institute, with traditional wood carving and weaving schools.</p>
-                  <p>Visit <a href="http://www.rotoruanz.com/" target="_blank">Rotorua</a> for more information on this fascinating destination.</p>
-                </div>
-              </div>
-              <div class="collapse collapse-content collapse-content-attractions collapseContent-4">
-                <div class="well">
-                  <h2>Tongariro National Park</h2>
-                  <p>Tongariro National Park is one of three World Heritage sites in New Zealand. The other two are Te Wahipounamu in the South Island, and the Sub Antarctic Islands.</p>
-                  <p>The most popular activity in the park is the Tongariro Alpine Crossing. The Track crosses stark and spectacular volcanic terrain, traversing between Mt Ngauruhoe and Mt Tongariro. Among its highlights are steaming vents and hot springs, old lava flows, beautiful water-filled explosion craters and stunning views. On clear days you can see Mount Taranaki in the west, Mount Ngauruhoe, the Kaimanawa Ranges, Lake Taupo and beyond. Take a bus to/from the walk and avoid limited parking at road ends.</p>
-                  <p>The Tongariro region has many more activities on offer from high tea at the iconic Chateau Tongariro, mountain biking, white water rafting, trout fishing and all levels of hiking tracks to sight seeing rides up Mt Ruapehu and skiing in the winter time.</p>
-                  <p>Visit <a href="http://www.nationalpark.co.nz/" target="_blank">Tongariro Nationl Park</a> for more information on this beautiful volcanic wonderland.</p>
-                </div>
-              </div>
-        </div> <!-- /.collapse-content-container-lg -->
+          <div class="collapse collapse-content collapseContent-1" id="collapse-div1"></div>
+          <div class="collapse collapse-content collapseContent-2" id="collapse-div2"></div>
+          <div class="collapse collapse-content collapseContent-3" id="collapse-div3"></div>
+          <div class="collapse collapse-content collapseContent-4" id="collapse-div4"></div>
+        </div> <!-- collapse-content-container-lg -->
         <div class="row">
           <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-            <section class="container-image container-image-attractions image-attractions-5">
+            <section class="container-image">
               <img class="img-responsive content-top-image" src="images/kaikoura.jpg" alt="kaikoura">
-              <div class="section-heading attractions-heading-5"><h3>Kaikoura</h3></div>
+              <div class="section-heading"><h3>Kaikoura</h3></div>
               <div class="middle text-center">
                 <p class="text">Kaikoura is a base for wildlife experiences of all kinds. It’s also a great place to eat crayfish (in the Maori language 'kai' means food, 'koura' means crayfish).</p>
-                <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-5" aria-expanded="false" aria-controls="collapseContent-5"> Discover more... </button>
+                <button class="btn btn-default button-image2 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-5" aria-expanded="false" aria-controls="collapse-div5"> Discover more... </button>
               </div>
             </section>
-              <div class="collapse collapse-content collapse-content-attractions collapseContent-5 collapse-content-container-sm">
+              <div class="collapse collapse-content collapseContent-5 collapse-content-container-sm" id="from-div5">
                 <div class="well">
                   <h2>Kaikoura</h2>
                   <p>An easy two-hour drive north of Christchurch, Kaikoura makes for a great day trip or a fun stop on your way to Marlborough.</p>
@@ -177,15 +151,15 @@
               </div>
           </div> <!-- column container -->
           <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-            <section class="container-image container-image-attractions image-attractions-6">
+            <section class="container-image">
               <img class="img-responsive content-top-image" src="images/lake-wanaka.jpg" alt="lake wanaka">
-              <div class="section-heading attractions-heading-6"><h3>Lake Wanaka</h3></div>
+              <div class="section-heading"><h3>Lake Wanaka</h3></div>
               <div class="middle text-center">
                 <p class="text">Nestled behind the towering Southern Alps in the South Island of New Zealand, the tranquil town of Wanaka is one of New Zealand’s top tourist locations.</p>
-                <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-6" aria-expanded="false" aria-controls="collapseContent-6"> Discover more... </button>
+                <button class="btn btn-default button-image2 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-6" aria-expanded="false" aria-controls="collapse-div6"> Discover more... </button>
               </div>
             </section>
-              <div class="collapse collapse-content collapse-content-attractions collapseContent-6 collapse-content-container-sm">
+              <div class="collapse collapse-content collapseContent-6 collapse-content-container-sm" id="from-div6">
                 <div class="well">
                   <h2>Lake Wanaka</h2>
                   <p>The snow topped mountains cast their magnificent reflections over Lake Wanaka, making the views from the town virtually incomparable.</p>
@@ -197,37 +171,37 @@
               </div>
           </div> <!-- column container -->
           <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-            <section class="container-image container-image-attractions image-attractions-7">
+            <section class="container-image">
               <img class="img-responsive content-top-image" src="images/queenstown.jpg" alt="queenstown">
-              <div class="section-heading attractions-heading-7"><h3>Queenstown</h3></div>
+              <div class="section-heading"><h3>Queenstown</h3></div>
               <div class="middle text-center">
                 <p class="text">Queenstown has a well-deserved reputation as the adventure capital of New Zealand. Bungy jumping and the Shotover Jet have become iconic activities, but there’s so much more on offer.</p>
-                <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-7" aria-expanded="false" aria-controls="collapseContent-7"> Discover more... </button>
+                <button class="btn btn-default button-image2 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-7" aria-expanded="false" aria-controls="collapse-div7"> Discover more... </button>
               </div>
             </section>
-              <div class="collapse collapse-content collapse-content-attractions collapseContent-7 collapse-content-container-sm">
+              <div class="collapse collapse-content collapseContent-7 collapse-content-container-sm" id="from-div7">
                 <div class="well">
                   <h2>Queenstown</h2>
                   <p>Sitting on the shore of crystal clear Lake Wakatipu, surrounded by majestic mountains is Queenstown - the Southern Hemisphere’s premier four season lake and alpine resort, recognized as on of New Zealand's premier visitor destinations. The lake and mountain landscape make it suited to all kinds of adventure.</p>
-                  <p>Skiing in the winter is a huge attraction, with a range of top class fields within easy reach. Adrenalin activities such as bungy jumping, sky diving, canyon swinging, jet boating and river rafting all year round.</p>
-                  <p>There are also plenty of relaxing things to see and do as well, such as horse trekking, hiking and sightseeing, indulging yourself with spa a treatment, boutique shopping and excellent food and wine, a soak in a hot pool or the jaw-dropping scenery on a lake cruise..</p>
+                  <p>Skiing in the winter is a huge attraction, with a range of top class fields within easy reach. Adrenalin activities such as bungy jumping, sky diving, canyon swinging, jet boating and river rafting are on offer all year round.</p>
+                  <p>There are also plenty of relaxing things to see and do as well, such as horse trekking, hiking and sightseeing, indulging yourself with a spa treatment, boutique shopping and excellent food and wine, a soak in a hot pool or the jaw-dropping scenery on a lake cruise..</p>
                   <p>Visit <a href="https://www.queenstownnz.co.nz/" target="_blank">Queenstown</a> for more information on the adventure capital of the world.</p>
                 </div>
               </div>
           </div> <!-- column container -->
           <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-            <section class="container-image container-image-attractions image-attractions-8">
+            <section class="container-image">
               <img class="img-responsive content-top-image" src="images/milford-sound.jpg" alt="milford sound">
-              <div class="section-heading attractions-heading-8"><h3>Milford Sound</h3></div>
+              <div class="section-heading"><h3>Milford Sound</h3></div>
               <div class="middle text-center">
                 <p class="text">Milford Sound is New Zealand’s purest treasure. Rightfully described as the 'eighth wonder of the world'. The postcard-perfect views are breath-taking in any weather.</p>
-                <button class="btn btn-default button-image text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-8" aria-expanded="false" aria-controls="collapseContent-8"> Discover more... </button>
+                <button class="btn btn-default button-image2 text-uppercase" type="button" data-toggle="collapse" data-target=".collapseContent-8" aria-expanded="false" aria-controls="collapse-div8"> Discover more... </button>
               </div>
             </section>
-              <div class="collapse collapse-content collapse-content-attractions collapseContent-8 collapse-content-container-sm">
+              <div class="collapse collapse-content collapseContent-8 collapse-content-container-sm" id="from-div8">
                 <div class="well">
                   <h2>Milford Sound</h2>
-                  <p>From the fiords dark waters rise vertical cliffs with waterfalls, some as high as 1000 metres, cascading down them. The magnetising Mitre Peak stands proud at 1,692 metres above sea level; it is certainly an impressive sight to behold. There is so much to see and do in this awe inspiring area, take a cruise, kayak, dive or even fly!</p>
+                  <p>From the fiords dark waters rise vertical cliffs with waterfalls, some as high as 1000 metres, cascading down them. The magnetising Mitre Peak stands proud at 1,692 metres above sea level; it is certainly an impressive sight to behold. There is so much to see and do in this awe inspiring area. Take a cruise, kayak, dive or even fly!</p>
                   <p>Bounded by steep cliffs and dense rainforest, Milford Sound is by far the best known of all of the fiords in New Zealand, and the only one that can be accessed by road. Rain or shine, Milford Sound continues to captivate even the most experienced traveler.</p>
                   <p>It is approximately 16km from the head of the fiord to the open sea, meaning visitors can comfortably travel the length of the fiord to open ocean and return on one of the many cruise options.</p>
                   <p>Visit <a href="http://www.milford-sound.co.nz/" target="_blank">Milford Sound</a> for more information on this captivating treasure.</p>
@@ -236,44 +210,11 @@
           </div> <!-- column container -->
         </div> <!-- row-2 container -->
         <div class="container collapse-content-container-lg hidden">
-          <div class="collapse collapse-content collapse-content-attractions collapseContent-5">
-                <div class="well">
-                  <h2>Kaikoura</h2>
-                  <p>An easy two-hour drive north of Christchurch, Kaikoura makes for a great day trip or a fun stop on your way to Marlborough.</p>
-                  <p>Kaikoura's environment is truly spectacular. The village is caught between the rugged Seaward Kaikoura Range and the Pacific Ocean. In winter the mountains are covered with snow, adding to the drama of the landscape.</p>
-                  <p>Kaikoura’s special talent is marine mammal encounters - whales, fur seals and dolphins live permanently in the coastal waters. Whale watching trips leave the town several times a day and the local seal colony is always entertaining. There are plenty of cafés, restaurants and shops to explore.</p>
-                  <p>Visit <a href="http://www.kaikoura.co.nz/" target="_blank">Kaikoura</a> for more information on this little Whale watching mecca</p>
-                </div>
-              </div>
-            <div class="collapse collapse-content collapse-content-attractions collapseContent-6">
-                <div class="well">
-                 <h2>Lake Wanaka</h2>
-                  <p>The snow topped mountains cast their magnificent reflections over Lake Wanaka, making the views from the town virtually incomparable.</p>
-                  <p>In winter, skiers flock here from all over the world for superb skiing and snowboarding at Cardrona and Treble Cone, cross-country skiing at Snow Farm and heli-skiing high in the Harris Mountains.
-                  Year round activities include fishing, hiking, kayaking, climbing and skydiving. Warbirds Over Wanaka is an annual Easter airshow, with an associated museum, that draws huge crowds from the region and beyond.</p>
-                  <p>Home to New Zealand’s only peaks over 3,000 metres outside of Mount Cook National Park, Mount Aspiring National Park is a huge and rugged wilderness area encompassing mountains, glacial valleys, alpine tussock meadows and native beech forests.</p>
-                  <p>Visit <a href="https://www.lakewanaka.co.nz/" target="_blank">Lake Wanaka</a> for more information on this stunning winter wonderland</p>
-                </div>
-            </div>
-            <div class="collapse collapse-content collapse-content-attractions collapseContent-7">
-                <div class="well">
-                  <h2>Queenstown</h2>
-                  <p>Sitting on the shore of crystal clear Lake Wakatipu, surrounded by majestic mountains is Queenstown - the Southern Hemisphere’s premier four season lake and alpine resort, recognized as on of New Zealand's premier visitor destinations. The lake and mountain landscape make it suited to all kinds of adventure.</p>
-                  <p>Skiing in the winter is a huge attraction, with a range of top class fields within easy reach. Adrenalin activities such as bungy jumping, sky diving, canyon swinging, jet boating and river rafting all year round.</p>
-                  <p>There are also plenty of relaxing things to see and do as well, such as horse trekking, hiking and sightseeing, indulging yourself with spa a treatment, boutique shopping and excellent food and wine, a soak in a hot pool or the jaw-dropping scenery on a lake cruise..</p>
-                  <p>Visit <a href="https://www.queenstownnz.co.nz/" target="_blank">Queenstown</a> for more information on the adventure capital of the world.</p>
-                </div>
-              </div>
-              <div class="collapse collapse-content collapse-content-attractions collapseContent-8">
-                <div class="well">
-                  <h2>Milford Sound</h2>
-                  <p>From the fiords dark waters rise vertical cliffs with waterfalls, some as high as 1000 metres, cascading down them. The magnetising Mitre Peak stands proud at 1,692 metres above sea level; it is certainly an impressive sight to behold. There is so much to see and do in this awe inspiring area, take a cruise, kayak, dive or even fly!</p>
-                  <p>Bounded by steep cliffs and dense rainforest, Milford Sound is by far the best known of all of the fiords in New Zealand, and the only one that can be accessed by road. Rain or shine, Milford Sound continues to captivate even the most experienced traveler.</p>
-                  <p>It is approximately 16km from the head of the fiord to the open sea, meaning visitors can comfortably travel the length of the fiord to open ocean and return on one of the many cruise options.</p>
-                  <p>Visit <a href="http://www.milford-sound.co.nz/" target="_blank">Milford Sound</a> for more information on this captivating treasure.</p>
-                </div>
-              </div>
-        </div> <!-- /.collapse-content-container-lg -->
+          <div class="collapse collapse-content collapseContent-5" id="collapse-div5"></div>
+          <div class="collapse collapse-content collapseContent-6" id="collapse-div6"></div>
+          <div class="collapse collapse-content collapseContent-7" id="collapse-div7"></div>
+          <div class="collapse collapse-content collapseContent-8" id="collapse-div8"></div>
+        </div> <!-- collapse-content-container-lg -->
       </div>
     <div class="container-fluid content-middle-background">
       <div class="container content-middle">
@@ -286,10 +227,10 @@
             From the far north where New Zealand’s political history began, journey through landscapes that blend magnificent beaches, sprawling farmlands and geothermal wonders. Maori culture is rich and ever-present in many parts of the North Island.</p>
             <p>Explore the country's fertile heartland, showcasing lush forests, rugged mountains, and steep gorges. Get off the beaten track and you'll be richly rewarded.</p>
             <h3>South Island</h3>
-            <p>From forest-fringed beaches to soaring mountains, the scenery of the South Island is an unforgettable backdrop to adrenaline-pumping adventure and indulgent relaxation. But did you know that in addition to its famous landscapes, the South Island is also home to rich cultural heritage and fascinating cities?</p>
+            <p>From forest-fringed beaches to soaring mountains, the scenery of the South Island is an unforgettable backdrop to adrenaline-pumping adventure and indulgent relaxation. But did you know that in addition to its famous landscapes, the South Island is also home to a rich cultural heritage and fascinating cities?</p>
             <p>New Zealand’s South Island hosts the purest natural landscapes you’ll ever experience.
-            From wildlife to wineries, from glacial valleys to star-filled skies, nature's best flourishes against a palette of dramatic scenes. Towering alps meet peaceful sounds and rugged coastlines merge with sweeping plains. Let’s not forget the backbone of the island - the most down-to-earth locals you’ll ever meet. Venture to the South Island and you'll be met by lofty mountains, fiords and glaciers – the landscapes here are famous the world over.</p>
-          </div> <!-- /.content container -->
+            From wildlife to wineries, from glacial valleys to star-filled skies, nature's best flourishes against a palette of dramatic scenes. Towering alps meet peaceful sounds and rugged coastlines merge with sweeping plains. Let’s not forget the backbone of the island - the most down-to-earth locals you’ll ever meet. Venture to the South Island and you'll be met by lofty mountains, fiord's and glaciers – the landscapes here are famous the world over.</p>
+          </div> <!-- content container -->
           <div class="col-md-4 content-sidebar">
             <div class="well search-form">
               <div class="input-group">
@@ -300,12 +241,12 @@
                       </button>
                   </span>
               </div>
-            </div> <!-- /.search-form -->
+            </div> <!-- search-form -->
             <div class="well social-icons text-center">
-              <a href="#" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-linkedin"></a>
-            </div> <!-- /.social-icons -->
+              <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+              <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+              <a href="https://nz.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+            </div> <!-- social-icons -->
             <div class="well references text-left">
               <h3>Site References</h3>
               <ul class="navbar-sidebar">
@@ -316,37 +257,38 @@
                 <li><a href="http://www.tourism.net.nz/new-zealand/about-new-zealand/culture.html" target="_blank">New Zealand Tourism Guide</a></li>
                 <li><a href="http://www.destination-nz.com/" target="_blank">Destination New Zealand</a></li>
                 <li><a href="https://www.google.co.nz/destination?q=new+zealand+best+attractions&espv=2&biw=1440&bih=803&site=search&output=search&dest_mid=/m/0ctw_b&sa=X&ved=0ahUKEwjXpIHRkZHTAhUIGJQKHV7UC5AQ7NEBCBooADAA" target="_blank">Google - Travel Guide</a></li>
-                <li><a href="http://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/" target="_blank">Department of Conversation</a></li>
+                <li><a href="http://www.doc.govt.nz/parks-and-recreation/places-to-go/central-north-island/places/tongariro-national-park/" target="_blank">Department of Conservation</a></li>
                 <li><a href="http://www.seeanddo.co.nz/rotorua" target="_blank">See & Do New Zealand</a></li>
               </ul>
-            </div> <!-- /references -->
+            </div> <!-- references -->
             <div class="well signup-form text-left">
               <h3>Receive Our Newsletter</h3>
               <form>
                 <div class="form-group">
-                  <label for="InputName">Name</label>
-                  <input type="text" class="form-control" id="contentInputPassword1" placeholder="Name">
+                  <label for="input-name" class="required-field">Name</label>
+                  <input type="text" class="form-control name-field" id="input-name" placeholder="George Smith">
                 </div>
                 <div class="form-group">
-                  <label for="InputEmail1">Email</label>
-                  <input type="email" class="form-control" id="InputEmail1" placeholder="Email">
+                  <label for="input-email" class="required-field">Email</label>
+                  <input type="email" class="form-control email-field" id="input-email" placeholder="name@domain.co.nz">
                 </div>
-                <button type="submit" class="btn btn-default signup-button text-uppercase">Sign Me Up!</button>
+                <button class="btn btn-default signup-button text-uppercase" id="newsletter-button" type="button">Sign Me Up!</button>
               </form>
-            </div> <!-- /signup-form -->
-          </div> <!-- /content-sidebar container -->
+              <div class="error-message" id="nl-error-message"></div>
+            </div> <!-- signup-form -->
+          </div> <!-- content-sidebar container -->
         </div>
       </div>
-    </div> <!-- /content-middle-background -->
+    </div> <!-- content-middle-background -->
     <div class="container-fluid content-bottom-background">
       <div class="container content-bottom">
         <div class="col-md-6 map-container">
           <h2>Plan Your Trip</h2>
-          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1dqf3GtyrzDkXTJGYvdegfSEAsn8" width="100%" height="240"></iframe>
+          <iframe height="240" src="https://www.google.com/maps/d/u/0/embed?mid=1dqf3GtyrzDkXTJGYvdegfSEAsn8"></iframe>
         </div>
         <div class="col-md-6 video-container responsive-embed">
-          <h2>Travel New Zealand in a Minute</h2>
-          <iframe width="100%" height="240" src="https://www.youtube.com/embed/fHCemviY06Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+          <h2>Travel New Zealand in Minutes</h2>
+          <iframe height="240" src="https://www.youtube.com/embed/fHCemviY06Y?rel=0&amp;showinfo=0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -356,31 +298,14 @@
             <div class="row">
               <div class="col-sm-6 col-md-3">
                 <section class="section-footer">
-                  <h3>Contact</h3>
-                  <ul class="navbar-footer text-uppercase">
-                    <li>Kombi Media</li>
-                    <li>+64 21 288 0078</li>
-                    <li><a href="mailto:cy@kombimedia.nz">cy@kombimedia.nz</a></li>
-                    <li>35 Galloway Cres</li>
-                    <li>Pyes Pa</li>
-                    <li>Tauranga 3112</li>
-                  </ul>
+                  <h3 class="footer-brand">New Zealand</h3>
+                  <p class="footer-brand-content">A place of beauty, action and adventure. Where rugby rules the roost,
+                  sheep fill the fields and Kiwi hospitality shines through. Come... Stay a while...</p>
                 </section>
               </div>
               <div class="col-sm-6 col-md-3">
                 <section class="section-footer">
-                  <h3>History</h3>
-                  <ul class="navbar-footer menu-footer text-uppercase">
-                    <li><a href="#">Māori Settlers</a></li>
-                    <li><a href="#">Early Europeans</a></li>
-                    <li><a href="#">Treaty of Waitangi</a></li>
-                    <li><a href="#">Modern New Zealand Culture</a></li>
-                  </ul>
-                </section>
-              </div>
-              <div class="col-sm-6 col-md-3">
-                <section class="section-footer">
-                  <h3>Attractions</h3>
+                  <h3>Attractions Links</h3>
                   <ul class="navbar-footer text-uppercase">
                     <li><a target="_blank" href="http://www.bay-of-islands.co.nz/">Bay of Islands</a></li>
                     <li><a target="_blank" href="http://www.hobbitontours.com/">Hobbiton Movie Set</a></li>
@@ -395,16 +320,29 @@
               </div>
               <div class="col-sm-6 col-md-3">
                 <section class="section-footer">
-                  <h3>Events</h3>
+                  <h3>Events Links</h3>
                   <ul class="navbar-footer text-uppercase">
                     <li><a target="_blank" href="http://ap.ironman.com/triathlon/events/asiapac/ironman/new-zealand.aspx#/axzz4eGzehJQJ">Ironman Nz</a></li>
                     <li><a target="_blank" href="http://www.worldmastersgames2017.co.nz/">World Masters Games</a></li>
                     <li><a target="_blank" href="http://www.allblacks.com/Tickets/LionsSeries">NZ Lions Series</a></li>
-                    <li><a target="_blank" href="events.html">Fieldays</a></li>
+                    <li><a target="_blank" href="http://www.fieldays.co.nz/">Fieldays</a></li>
                     <li><a target="_blank" href="https://www.winterfestival.co.nz/">Queenstown Winter Festival</a></li>
                     <li><a target="_blank" href="http://www.wintergamesnz.kiwi/">Winter Games NZ</a></li>
                     <li><a target="_blank" href="http://www.rlwc2017.com/">Rugby League WC</a></li>
                     <li><a target="_blank" href="http://www.nzcupandshow.co.nz/">NZ Cup Week</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <section class="section-footer">
+                  <h3>Contact</h3>
+                  <ul class="navbar-footer text-uppercase">
+                    <li>Kombi Media</li>
+                    <li>+64 21 288 0078</li>
+                    <li><a href="mailto:cy@kombimedia.nz">cy@kombimedia.nz</a></li>
+                    <li>35 Galloway Cres</li>
+                    <li>Pyes Pa</li>
+                    <li>Tauranga 3112</li>
                   </ul>
                 </section>
               </div>
