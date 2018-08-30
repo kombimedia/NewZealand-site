@@ -67,7 +67,7 @@ function contactFormValidate() {
     conPhone.value = "";
     conMessage.value = "";
     // Output success message and change text colour
-    conErrorMessage.style.color = '#35c625';
+    conErrorMessage.style.color = '#35C625';
     conErrorMessage.innerHTML = 'Thank you for contacting us ' + firstName + '! We will come back to you ASAP.';
 }
 
@@ -90,13 +90,13 @@ function validateName(name, message) {
 // Validate email function
 function validateEmail(email, message, clear) {
   var atPos = email.indexOf("@");
-  var dotPos = email.lastIndexOf(".");
+  var dotPos = email.indexOf(".");
   var secondAtPos = email.lastIndexOf("@") !== atPos;
     if (email === "") {
       return "Hmmm.. You haven't entered an email address!";
     } if (atPos < 0) {
       return "Oops!" + " '" + email + "' " + "is missing an '@'.";;
-    } if (secondAtPos || dotPos < atPos +2 || dotPos +2 >= email.length || email.length <= 8) {
+    } if (secondAtPos || dotPos < atPos +3 || dotPos +2 >= email.length || email.length <= 8) {
         return "Oh no! '" + email + "' " + "isn't a valid email address. Please try again.";
     }
     return false;
